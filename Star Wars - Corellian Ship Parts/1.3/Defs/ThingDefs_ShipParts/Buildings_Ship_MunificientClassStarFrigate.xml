@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartMunificient"  Abstract="True">
+    <designatorDropdown>CEC_MCSF_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_HoerschKessel_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_FrontRightA</defName>
+    <label>munificent-class star frigate front right 1</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerFrontRight1</texPath>
+      <drawSize>(15,9)</drawSize>
+    </graphicData>
+    <size>(15,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>27000</MaxHitPoints>
+      <WorkToBuild>108000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_FrontRightB</defName>
+    <label>munificent-class star frigate front right 2</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerFrontRight2</texPath>
+      <drawSize>(27,6)</drawSize>
+    </graphicData>
+    <size>(27,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1620</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>32400</MaxHitPoints>
+      <WorkToBuild>129600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_FrontLeftA</defName>
+    <label>munificent-class star frigate front left 1</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerFrontLeft1</texPath>
+      <drawSize>(15,9)</drawSize>
+    </graphicData>
+    <size>(15,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>27000</MaxHitPoints>
+      <WorkToBuild>108000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_FrontLeftB</defName>
+    <label>munificent-class star frigate front left 2</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerFrontLeft2</texPath>
+      <drawSize>(27,6)</drawSize>
+    </graphicData>
+    <size>(27,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1620</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>32400</MaxHitPoints>
+      <WorkToBuild>129600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideRightA</defName>
+    <label>munificent-class star frigate side right 1</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideRight1</texPath>
+      <drawSize>(26,5)</drawSize>
+    </graphicData>
+    <size>(26,3)</size>
+    <costList>
+      <O21_OR_Durasteel>780</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15600</MaxHitPoints>
+      <WorkToBuild>62400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideRightB</defName>
+    <label>munificent-class star frigate side right 2</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideRight2</texPath>
+      <drawSize>(27,21)</drawSize>
+    </graphicData>
+    <size>(27,3)</size>
+    <costList>
+      <O21_OR_Durasteel>810</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>16200</MaxHitPoints>
+      <WorkToBuild>64800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideRightC</defName>
+    <label>munificent-class star frigate side right 3</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideRight3</texPath>
+      <drawSize>(12,18)</drawSize>
+    </graphicData>
+    <size>(12,8)</size>
+    <costList>
+      <O21_OR_Durasteel>960</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>19200</MaxHitPoints>
+      <WorkToBuild>76800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideRightD</defName>
+    <label>munificent-class star frigate side right 4</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideRight4</texPath>
+      <drawSize>(26,4)</drawSize>
+    </graphicData>
+    <size>(26,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1040</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>20800</MaxHitPoints>
+      <WorkToBuild>83200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideRightE</defName>
+    <label>munificent-class star frigate side right 5</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideRight5</texPath>
+      <drawSize>(7,6)</drawSize>
+    </graphicData>
+    <size>(7,6)</size>
+    <costList>
+      <O21_OR_Durasteel>420</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8400</MaxHitPoints>
+      <WorkToBuild>33600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideLeftA</defName>
+    <label>munificent-class star frigate side left 1</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideLeft1</texPath>
+      <drawSize>(26,5)</drawSize>
+    </graphicData>
+    <size>(26,3)</size>
+    <costList>
+      <O21_OR_Durasteel>780</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15600</MaxHitPoints>
+      <WorkToBuild>62400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideLeftB</defName>
+    <label>munificent-class star frigate side left 2</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideLeft2</texPath>
+      <drawSize>(27,21)</drawSize>
+    </graphicData>
+    <size>(27,3)</size>
+    <costList>
+      <O21_OR_Durasteel>810</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>16200</MaxHitPoints>
+      <WorkToBuild>64800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideLeftC</defName>
+    <label>munificent-class star frigate side left 3</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideLeft3</texPath>
+      <drawSize>(12,18)</drawSize>
+    </graphicData>
+    <size>(12,8)</size>
+    <costList>
+      <O21_OR_Durasteel>960</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>19200</MaxHitPoints>
+      <WorkToBuild>76800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideLeftD</defName>
+    <label>munificent-class star frigate side left 4</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideLeft4</texPath>
+      <drawSize>(26,4)</drawSize>
+    </graphicData>
+    <size>(26,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1040</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>20800</MaxHitPoints>
+      <WorkToBuild>83200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_SideLeftE</defName>
+    <label>munificent-class star frigate side left 5</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerSideLeft5</texPath>
+      <drawSize>(7,6)</drawSize>
+    </graphicData>
+    <size>(7,6)</size>
+    <costList>
+      <O21_OR_Durasteel>420</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8400</MaxHitPoints>
+      <WorkToBuild>33600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_Back</defName>
+    <label>munificent-class star frigate back</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerBack</texPath>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <size>(5,5)</size>
+    <costList>
+      <O21_OR_Durasteel>250</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient">
+    <defName>Ship_MunificientClassFrigate_Top</defName>
+    <label>munificent-class star frigate top</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerTop</texPath>
+      <drawSize>(21,7)</drawSize>
+    </graphicData>
+    <size>(3,7)</size>
+    <costList>
+      <O21_OR_Durasteel>210</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4200</MaxHitPoints>
+      <WorkToBuild>16800</WorkToBuild>
+    </statBases>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <!--Engine-->
+  <ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartMunificient_Engine"   Abstract="True">
+    <designatorDropdown>CEC_MCSF_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_HoerschKessel_Parts</li>
+    </researchPrerequisites>
+    <costList>
+      <O21_OR_Durasteel>300</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>2</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>1500.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>false</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient_Engine">
+    <defName>Ship_MunificientClassFrigate_EngineR</defName>
+    <label>munificent-class star frigate engine right</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerEngineRight</texPath>
+      <drawSize>(10,31)</drawSize>
+    </graphicData>
+    <size>(10,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>3</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartMunificient_Engine">
+    <defName>Ship_MunificientClassFrigate_EngineL</defName>
+    <label>munificent-class star frigate engine left</label>
+    <graphicData>
+      <texPath>ShipParts5/MunificientClassDestoyerEngineLeft</texPath>
+      <drawSize>(10,31)</drawSize>
+    </graphicData>
+    <size>(10,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>3</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

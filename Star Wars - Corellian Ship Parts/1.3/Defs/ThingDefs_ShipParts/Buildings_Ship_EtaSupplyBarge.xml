@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartEta"  Abstract="True">
+    <designatorDropdown>CEC_ESB_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Sienar_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_Front</defName>
+    <label>eta-class supply barge front</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeFront</texPath>
+      <drawSize>(4,5)</drawSize>
+    </graphicData>
+    <size>(4,5)</size>
+    <costList>
+      <O21_OR_Durasteel>200</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <WorkToBuild>16000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_FrontRightA</defName>
+    <label>eta-class supply barge front right 1</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeFrontRight1</texPath>
+      <drawSize>(16,9)</drawSize>
+    </graphicData>
+    <size>(16,7)</size>
+    <costList>
+      <O21_OR_Durasteel>1120</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>22400</MaxHitPoints>
+      <WorkToBuild>89600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_FrontRightB</defName>
+    <label>eta-class supply barge front right 2</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeFrontRight2</texPath>
+      <drawSize>(6,2)</drawSize>
+    </graphicData>
+    <size>(6,2)</size>
+    <costList>
+      <O21_OR_Durasteel>120</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <WorkToBuild>9600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_FrontLeftA</defName>
+    <label>eta-class supply barge front left 1</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeFrontLeft1</texPath>
+      <drawSize>(16,9)</drawSize>
+    </graphicData>
+    <size>(16,7)</size>
+    <costList>
+      <O21_OR_Durasteel>1120</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>22400</MaxHitPoints>
+      <WorkToBuild>89600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_FrontLeftB</defName>
+    <label>eta-class supply barge front left 2</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeFrontLeft2</texPath>
+      <drawSize>(6,2)</drawSize>
+    </graphicData>
+    <size>(6,2)</size>
+    <costList>
+      <O21_OR_Durasteel>120</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2400</MaxHitPoints>
+      <WorkToBuild>9600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_Side</defName>
+    <label>eta-class supply barge side</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeSide</texPath>
+      <drawSize>(22,4)</drawSize>
+    </graphicData>
+    <size>(22,2)</size>
+    <costList>
+      <O21_OR_Durasteel>440</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8800</MaxHitPoints>
+      <WorkToBuild>35200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_WingRightA</defName>
+    <label>eta-class supply barge wing right 1</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeWingRight1A</texPath>
+      <drawSize>(17,30)</drawSize>
+    </graphicData>
+    <size>(17,4)</size>
+    <costList>
+      <O21_OR_Durasteel>680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>13600</MaxHitPoints>
+      <WorkToBuild>54400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+        <extraGraphics>
+          <li>
+            <label>Landed</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingRight1A</path>
+          </li>
+          <li>
+            <label>Flying</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingRight1B</path>
+          </li>
+        </extraGraphics>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_WingRightB</defName>
+    <label>eta-class supply barge wing right 2</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeWingRight2A</texPath>
+      <drawSize>(17,30)</drawSize>
+    </graphicData>
+    <size>(17,4)</size>
+    <costList>
+      <O21_OR_Durasteel>680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>13600</MaxHitPoints>
+      <WorkToBuild>54400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+        <extraGraphics>
+          <li>
+            <label>Landed</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingRight2A</path>
+          </li>
+          <li>
+            <label>Flying</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingRight2B</path>
+          </li>
+        </extraGraphics>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_WingLeftA</defName>
+    <label>eta-class supply barge wing left 1</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeWingLeft1A</texPath>
+      <drawSize>(17,30)</drawSize>
+    </graphicData>
+    <size>(17,4)</size>
+    <costList>
+      <O21_OR_Durasteel>680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>13600</MaxHitPoints>
+      <WorkToBuild>54400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+        <extraGraphics>
+          <li>
+            <label>Landed</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingLeft1A</path>
+          </li>
+          <li>
+            <label>Flying</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingLeft1B</path>
+          </li>
+        </extraGraphics>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_WingLeftB</defName>
+    <label>eta-class supply barge wing left 2</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeWingLeft2A</texPath>
+      <drawSize>(17,30)</drawSize>
+    </graphicData>
+    <size>(17,4)</size>
+    <costList>
+      <O21_OR_Durasteel>680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>13600</MaxHitPoints>
+      <WorkToBuild>54400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+        <extraGraphics>
+          <li>
+            <label>Landed</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingLeft2A</path>
+          </li>
+          <li>
+            <label>Flying</label>
+            <path>ShipParts6/EtaClassSupplyBargeWingLeft2B</path>
+          </li>
+        </extraGraphics>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_BackRight</defName>
+    <label>eta-class supply barge back right</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeBackRight</texPath>
+      <drawSize>(4,2)</drawSize>
+    </graphicData>
+    <size>(4,2)</size>
+    <costList>
+      <O21_OR_Durasteel>80</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>1600</MaxHitPoints>
+      <WorkToBuild>6400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_BackLeft</defName>
+    <label>eta-class supply barge back left</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeBackLeft</texPath>
+      <drawSize>(4,2)</drawSize>
+    </graphicData>
+    <size>(4,2)</size>
+    <costList>
+      <O21_OR_Durasteel>80</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>1600</MaxHitPoints>
+      <WorkToBuild>6400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta">
+    <defName>Ship_EtaClassSupplyBarge_EngineBlock</defName>
+    <label>eta-class supply barge engine block</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeEngineBlock</texPath>
+      <drawSize>(8,19)</drawSize>
+    </graphicData>
+    <size>(8,19)</size>
+    <costList>
+      <O21_OR_Durasteel>1520</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30400</MaxHitPoints>
+      <WorkToBuild>121600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <!--Engine-->
+  <ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartEta_Engine"   Abstract="True">
+    <description>...</description>
+    <designatorDropdown>CEC_ESB_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Sienar_Parts</li>
+    </researchPrerequisites>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>3</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>2000.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>false</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>4</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta_Engine">
+    <defName>Ship_EtaClassSupplyBarge_EngineRight</defName>
+    <label>eta-class supply barge engine right</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeEngineRight</texPath>
+      <drawSize>(11,3)</drawSize>
+    </graphicData>
+    <size>(7,3)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartEta_Engine">
+    <defName>Ship_EtaClassSupplyBarge_EngineLeft</defName>
+    <label>eta-class supply barge engine left</label>
+    <graphicData>
+      <texPath>ShipParts6/EtaClassSupplyBargeEngineLeft</texPath>
+      <drawSize>(9,3)</drawSize>
+    </graphicData>
+    <size>(7,3)</size>
+  </ThingDef>
+  
+</Defs>

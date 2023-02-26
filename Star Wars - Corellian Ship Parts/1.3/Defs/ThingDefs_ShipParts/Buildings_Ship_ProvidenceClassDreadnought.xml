@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartProvidence"  Abstract="True">
+    <designatorDropdown>CEC_PCD_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Quarran_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_Front</defName>
+    <label>providence-class dreadnought front</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtFront</texPath>
+      <drawSize>(17,9)</drawSize>
+    </graphicData>
+    <size>(17,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1530</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30600</MaxHitPoints>
+      <WorkToBuild>122400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_FrontRight</defName>
+    <label>providence-class dreadnought front right</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtFrontRight</texPath>
+      <drawSize>(19,6)</drawSize>
+    </graphicData>
+    <size>(19,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1140</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>22800</MaxHitPoints>
+      <WorkToBuild>91200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_FrontLeft</defName>
+    <label>providence-class dreadnought front left</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtFrontLeft</texPath>
+      <drawSize>(19,6)</drawSize>
+    </graphicData>
+    <size>(19,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1140</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>22800</MaxHitPoints>
+      <WorkToBuild>91200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideRightA</defName>
+    <label>providence-class dreadnought side right 1</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideRight1</texPath>
+      <drawSize>(25,5)</drawSize>
+    </graphicData>
+    <size>(25,3)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideRightB</defName>
+    <label>providence-class dreadnought side right 2</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideRight2</texPath>
+      <drawSize>(25,5)</drawSize>
+    </graphicData>
+    <size>(25,3)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideRightC</defName>
+    <label>providence-class dreadnought side right 3</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideRight3</texPath>
+      <drawSize>(42,4)</drawSize>
+    </graphicData>
+    <size>(42,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>33600</MaxHitPoints>
+      <WorkToBuild>134400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideRightD</defName>
+    <label>providence-class dreadnought side right 4</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideRight4</texPath>
+      <drawSize>(5,3)</drawSize>
+    </graphicData>
+    <size>(5,3)</size>
+    <costList>
+      <O21_OR_Durasteel>150</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideLeftA</defName>
+    <label>providence-class dreadnought side left 1</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideLeft1</texPath>
+      <drawSize>(25,5)</drawSize>
+    </graphicData>
+    <size>(25,3)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideLeftB</defName>
+    <label>providence-class dreadnought side left 2</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideLeft2</texPath>
+      <drawSize>(25,5)</drawSize>
+    </graphicData>
+    <size>(25,3)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideLeftC</defName>
+    <label>providence-class dreadnought side left 3</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideLeft3</texPath>
+      <drawSize>(42,4)</drawSize>
+    </graphicData>
+    <size>(42,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1680</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>33600</MaxHitPoints>
+      <WorkToBuild>134400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_SideLeftD</defName>
+    <label>providence-class dreadnought side left 4</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtSideLeft4</texPath>
+      <drawSize>(5,3)</drawSize>
+    </graphicData>
+    <size>(5,3)</size>
+    <costList>
+      <O21_OR_Durasteel>150</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_BackRight</defName>
+    <label>providence-class dreadnought back right</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtBackRight</texPath>
+      <drawSize>(8,5)</drawSize>
+    </graphicData>
+    <size>(8,5)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_BackLeft</defName>
+    <label>providence-class dreadnought back left</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtBackLeft</texPath>
+      <drawSize>(8,5)</drawSize>
+    </graphicData>
+    <size>(8,5)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_EngineBlock</defName>
+    <label>providence-class dreadnought engine block</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtEngineBlock</texPath>
+      <drawSize>(23,21)</drawSize>
+    </graphicData>
+    <size>(11,19)</size>
+    <costList>
+      <O21_OR_Durasteel>2090</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>41800</MaxHitPoints>
+      <WorkToBuild>167200</WorkToBuild>
+    </statBases>
+    <altitudeLayer>FogOfWar</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence">
+    <defName>Ship_ProvidenceClassDreadnought_Top</defName>
+    <label>providence-class dreadnought top</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtTop</texPath>
+      <drawSize>(23,7)</drawSize>
+    </graphicData>
+    <size>(3,7)</size>
+    <costList>
+      <O21_OR_Durasteel>210</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4200</MaxHitPoints>
+      <WorkToBuild>16800</WorkToBuild>
+    </statBases>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <!--Engine-->
+  <ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartProvidence_Engine"   Abstract="True">
+    <designatorDropdown>CEC_PCD_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Quarran_Parts</li>
+    </researchPrerequisites>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>2</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>2000.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>false</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence_Engine">
+    <defName>Ship_ProvidenceClassDreadnought_EngineR</defName>
+    <label>providence-class dreadnought engine right</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtEngineRight</texPath>
+      <drawSize>(6,3)</drawSize>
+    </graphicData>
+    <size>(6,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>4</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartProvidence_Engine">
+    <defName>Ship_ProvidenceClassDreadnought_EngineL</defName>
+    <label>providence-class dreadnought engine left</label>
+    <graphicData>
+      <texPath>ShipParts5/ProvidenceClassDreadnoughtEngineLeft</texPath>
+      <drawSize>(6,3)</drawSize>
+    </graphicData>
+    <size>(6,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>4</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

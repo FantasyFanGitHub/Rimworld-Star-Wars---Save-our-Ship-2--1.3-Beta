@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartCISSupply"  Abstract="True">
+    <designatorDropdown>CEC_CISSS_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_HoerschKessel_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightA</defName>
+    <label>CIS supply ship sphere right 1</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight1</texPath>
+      <drawSize>(37,5)</drawSize>
+    </graphicData>
+    <size>(37,5)</size>
+    <costList>
+      <O21_OR_Durasteel>1850</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>37000</MaxHitPoints>
+      <WorkToBuild>148000</WorkToBuild>
+    </statBases>
+    <altitudeLayer>Zone</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightB</defName>
+    <label>CIS supply ship sphere right 2</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight2</texPath>
+      <drawSize>(6,15)</drawSize>
+    </graphicData>
+    <size>(6,15)</size>
+    <costList>
+      <O21_OR_Durasteel>900</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>18000</MaxHitPoints>
+      <WorkToBuild>72000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightC</defName>
+    <label>CIS supply ship sphere right 3</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight3</texPath>
+      <drawSize>(19,24)</drawSize>
+    </graphicData>
+    <size>(5,8)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightD</defName>
+    <label>CIS supply ship sphere right 4</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight4</texPath>
+      <drawSize>(17,9)</drawSize>
+    </graphicData>
+    <size>(17,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1530</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30600</MaxHitPoints>
+      <WorkToBuild>122400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightE</defName>
+    <label>CIS supply ship sphere right 5</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight5</texPath>
+      <drawSize>(47,5)</drawSize>
+    </graphicData>
+    <size>(47,5)</size>
+    <costList>
+      <O21_OR_Durasteel>2350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>47000</MaxHitPoints>
+      <WorkToBuild>188000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightF</defName>
+    <label>CIS supply ship sphere right 6</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight6</texPath>
+      <drawSize>(17,9)</drawSize>
+    </graphicData>
+    <size>(17,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1530</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30600</MaxHitPoints>
+      <WorkToBuild>122400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightG</defName>
+    <label>CIS supply ship sphere right 7</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight7</texPath>
+      <drawSize>(19,24)</drawSize>
+    </graphicData>
+    <size>(5,8)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightH</defName>
+    <label>CIS supply ship sphere right 8</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight8</texPath>
+      <drawSize>(3,15)</drawSize>
+    </graphicData>
+    <size>(3,15)</size>
+    <costList>
+      <O21_OR_Durasteel>450</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>9000</MaxHitPoints>
+      <WorkToBuild>36000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereRightI</defName>
+    <label>CIS supply ship sphere right 9</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereRight9</texPath>
+      <drawSize>(51,5)</drawSize>
+    </graphicData>
+    <size>(51,5)</size>
+    <costList>
+      <O21_OR_Durasteel>2550</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>51000</MaxHitPoints>
+      <WorkToBuild>204000</WorkToBuild>
+    </statBases>
+    <altitudeLayer>Zone</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftA</defName>
+    <label>CIS supply ship sphere left 1</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft1</texPath>
+      <drawSize>(37,5)</drawSize>
+    </graphicData>
+    <size>(37,5)</size>
+    <costList>
+      <O21_OR_Durasteel>1850</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>37000</MaxHitPoints>
+      <WorkToBuild>148000</WorkToBuild>
+    </statBases>
+    <altitudeLayer>Zone</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftB</defName>
+    <label>CIS supply ship sphere left 2</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft2</texPath>
+      <drawSize>(6,15)</drawSize>
+    </graphicData>
+    <size>(6,15)</size>
+    <costList>
+      <O21_OR_Durasteel>900</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>18000</MaxHitPoints>
+      <WorkToBuild>72000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftC</defName>
+    <label>CIS supply ship sphere left 3</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft3</texPath>
+      <drawSize>(19,24)</drawSize>
+    </graphicData>
+    <size>(5,8)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftD</defName>
+    <label>CIS supply ship sphere left 4</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft4</texPath>
+      <drawSize>(17,9)</drawSize>
+    </graphicData>
+    <size>(17,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1530</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30600</MaxHitPoints>
+      <WorkToBuild>122400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftE</defName>
+    <label>CIS supply ship sphere left 5</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft5</texPath>
+      <drawSize>(47,5)</drawSize>
+    </graphicData>
+    <size>(47,5)</size>
+    <costList>
+      <O21_OR_Durasteel>2350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>47000</MaxHitPoints>
+      <WorkToBuild>188000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftF</defName>
+    <label>CIS supply ship sphere left 6</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft6</texPath>
+      <drawSize>(17,9)</drawSize>
+    </graphicData>
+    <size>(17,9)</size>
+    <costList>
+      <O21_OR_Durasteel>1530</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>30600</MaxHitPoints>
+      <WorkToBuild>122400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftG</defName>
+    <label>CIS supply ship sphere left 7</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft7</texPath>
+      <drawSize>(19,24)</drawSize>
+    </graphicData>
+    <size>(5,8)</size>
+    <costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>32000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftH</defName>
+    <label>CIS supply ship sphere left 8</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft8</texPath>
+      <drawSize>(3,15)</drawSize>
+    </graphicData>
+    <size>(3,15)</size>
+    <costList>
+      <O21_OR_Durasteel>450</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>9000</MaxHitPoints>
+      <WorkToBuild>36000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereLeftI</defName>
+    <label>CIS supply ship sphere left 9</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereLeft9</texPath>
+      <drawSize>(51,5)</drawSize>
+    </graphicData>
+    <size>(51,5)</size>
+    <costList>
+      <O21_OR_Durasteel>2550</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>51000</MaxHitPoints>
+      <WorkToBuild>204000</WorkToBuild>
+    </statBases>
+    <altitudeLayer>Zone</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_SphereTop</defName>
+    <label>CIS supply ship connector sphere top</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereTop</texPath>
+      <drawSize>(29,4)</drawSize>
+    </graphicData>
+    <size>(29,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1160</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>23200</MaxHitPoints>
+      <WorkToBuild>92800</WorkToBuild>
+    </statBases>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_ConnectionFront</defName>
+    <label>CIS supply ship connector front</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipConnectionFront</texPath>
+      <drawSize>(6,68)</drawSize>
+    </graphicData>
+    <size>(6,68)</size>
+    <costList>
+      <O21_OR_Durasteel>4080</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>81600</MaxHitPoints>
+      <WorkToBuild>326400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_ConnectionBack</defName>
+    <label>CIS supply ship connector back</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipConnectionBack</texPath>
+      <drawSize>(4,68)</drawSize>
+    </graphicData>
+    <size>(4,68)</size>
+    <costList>
+      <O21_OR_Durasteel>2720</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>54400</MaxHitPoints>
+      <WorkToBuild>217600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartCISSupply">
+    <defName>Ship_CISSupplyShip_ConnectionTop</defName>
+    <label>CIS supply ship connector top</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipTop</texPath>
+      <drawSize>(11,18)</drawSize>
+    </graphicData>
+    <size>(3,6)</size>
+    <costList>
+      <O21_OR_Durasteel>180</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3600</MaxHitPoints>
+      <WorkToBuild>14400</WorkToBuild>
+    </statBases>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <!--Engine-->
+  <ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartCISSupply_Engine"   Abstract="True">
+    <designatorDropdown>CEC_CISSS_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_HoerschKessel_Parts</li>
+    </researchPrerequisites>
+    <costList>
+      <O21_OR_Durasteel>500</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>2</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>2500.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>false</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply_Engine">
+    <defName>Ship_CISSupplyShip_EngineR</defName>
+    <label>CIS supply ship engine right</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereEngineRight</texPath>
+      <drawSize>(15,3)</drawSize>
+    </graphicData>
+    <size>(15,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>5</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartCISSupply_Engine">
+    <defName>Ship_CISSupplyShip_EngineL</defName>
+    <label>CIS supply ship engine left</label>
+    <graphicData>
+      <texPath>ShipParts5/CISSupplyShipSphereEngineLeft</texPath>
+      <drawSize>(15,3)</drawSize>
+    </graphicData>
+    <size>(15,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>5</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

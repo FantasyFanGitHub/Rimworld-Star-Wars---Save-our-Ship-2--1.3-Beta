@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartRecusant"  Abstract="True">
+    <designatorDropdown>CEC_RCLD_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Quarran_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_Front</defName>
+    <label>recusant-class light destroyer front</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerFront</texPath>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <size>(7,7)</size>
+    <costList>
+      <O21_OR_Durasteel>490</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>9800</MaxHitPoints>
+      <WorkToBuild>39200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_FrontRight</defName>
+    <label>recusant-class light destroyer front right</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerFrontRight</texPath>
+      <drawSize>(15,5)</drawSize>
+    </graphicData>
+    <size>(15,5)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_FrontLeft</defName>
+    <label>recusant-class light destroyer front left</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerFrontLeft</texPath>
+      <drawSize>(15,5)</drawSize>
+    </graphicData>
+    <size>(15,5)</size>
+    <costList>
+      <O21_OR_Durasteel>750</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>15000</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideRightA</defName>
+    <label>recusant-class light destroyer side right 1</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideRight1</texPath>
+      <drawSize>(29,4)</drawSize>
+    </graphicData>
+    <size>(29,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1160</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>23200</MaxHitPoints>
+      <WorkToBuild>92800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideRightB</defName>
+    <label>recusant-class light destroyer side right 2</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideRight2</texPath>
+      <drawSize>(29,4)</drawSize>
+    </graphicData>
+    <size>(29,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1160</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>23200</MaxHitPoints>
+      <WorkToBuild>92800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideRightC</defName>
+    <label>recusant-class light destroyer side right 3</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideRight3</texPath>
+      <drawSize>(7,9)</drawSize>
+    </graphicData>
+    <size>(7,5)</size>
+    <costList>
+      <O21_OR_Durasteel>350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>7000</MaxHitPoints>
+      <WorkToBuild>28000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideRightD</defName>
+    <label>recusant-class light destroyer side right 4</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideRight4</texPath>
+      <drawSize>(27,2)</drawSize>
+    </graphicData>
+    <size>(27,2)</size>
+    <costList>
+      <O21_OR_Durasteel>540</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>10800</MaxHitPoints>
+      <WorkToBuild>43200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideLeftA</defName>
+    <label>recusant-class light destroyer side left 1</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideLeft1</texPath>
+      <drawSize>(29,4)</drawSize>
+    </graphicData>
+    <size>(29,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1160</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>23200</MaxHitPoints>
+      <WorkToBuild>92800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideLeftB</defName>
+    <label>recusant-class light destroyer side left 2</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideLeft2</texPath>
+      <drawSize>(29,4)</drawSize>
+    </graphicData>
+    <size>(29,4)</size>
+    <costList>
+      <O21_OR_Durasteel>1160</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>23200</MaxHitPoints>
+      <WorkToBuild>92800</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideLeftC</defName>
+    <label>recusant-class light destroyer side left 3</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideLeft3</texPath>
+      <drawSize>(7,9)</drawSize>
+    </graphicData>
+    <size>(7,5)</size>
+    <costList>
+      <O21_OR_Durasteel>350</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>7000</MaxHitPoints>
+      <WorkToBuild>28000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_SideLeftD</defName>
+    <label>recusant-class light destroyer side left 4</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSideLeft4</texPath>
+      <drawSize>(27,2)</drawSize>
+    </graphicData>
+    <size>(27,2)</size>
+    <costList>
+      <O21_OR_Durasteel>540</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>10800</MaxHitPoints>
+      <WorkToBuild>43200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_Side</defName>
+    <label>recusant-class light destroyer side</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerSide</texPath>
+      <drawSize>(3,1)</drawSize>
+    </graphicData>
+    <size>(3,1)</size>
+    <costList>
+      <O21_OR_Durasteel>30</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>14400</MaxHitPoints>
+      <WorkToBuild>57600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_EngineBlockCentre</defName>
+    <label>recusant-class light destroyer engine block centre</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineBlockCentre</texPath>
+      <drawSize>(8,9)</drawSize>
+    </graphicData>
+    <size>(8,9)</size>
+    <costList>
+      <O21_OR_Durasteel>720</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>14400</MaxHitPoints>
+      <WorkToBuild>57600</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_EngineBlockRight</defName>
+    <label>recusant-class light destroyer engine block right</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineBlockRight</texPath>
+      <drawSize>(24,6)</drawSize>
+    </graphicData>
+    <size>(24,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1440</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>28800</MaxHitPoints>
+      <WorkToBuild>115200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant">
+    <defName>Ship_RecusantClassDestroyer_EngineBlockLeft</defName>
+    <label>recusant-class light destroyer engine block left</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineBlockLeft</texPath>
+      <drawSize>(24,6)</drawSize>
+    </graphicData>
+    <size>(24,6)</size>
+    <costList>
+      <O21_OR_Durasteel>1440</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>28800</MaxHitPoints>
+      <WorkToBuild>115200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <!--Engine-->
+  <ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartRecusant_Engine"   Abstract="True">
+    <designatorDropdown>CEC_RCLD_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Quarran_Parts</li>
+    </researchPrerequisites>
+    <costList>
+      <O21_OR_Durasteel>250</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>2</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>1200.0</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>false</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="CEC_ShipPartRecusant_Engine">
+    <defName>Ship_RecusantClassDestroyer_EngineC</defName>
+    <label>recusant-class light destroyer engine centre</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineCentre</texPath>
+      <drawSize>(9,47)</drawSize>
+    </graphicData>
+    <size>(5,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>2</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartRecusant_Engine">
+    <defName>Ship_RecusantClassDestroyer_EngineR</defName>
+    <label>recusant-class light destroyer engine right</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineRight</texPath>
+      <drawSize>(5,3)</drawSize>
+    </graphicData>
+    <size>(5,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>3</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartRecusant_Engine">
+    <defName>Ship_RecusantClassDestroyer_EngineL</defName>
+    <label>recusant-class light destroyer engine left</label>
+    <graphicData>
+      <texPath>ShipParts5/RecusantClassDestroyerEngineLeft</texPath>
+      <drawSize>(5,3)</drawSize>
+    </graphicData>
+    <size>(5,3)</size>
+    <comps>
+      <li Class="CompProperties_EngineTrail">
+        <thrust>3</thrust>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

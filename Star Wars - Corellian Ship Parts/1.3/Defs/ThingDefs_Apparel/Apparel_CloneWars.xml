@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Judicial Forces-->
+  <ThingDef ParentName="OR_UniformBodyFabricatedBase">
+    <defName>CEC_JudicialForcesUniform</defName>
+    <label>judicial forces uniform</label>
+    <description>A durable utalitarian uniform used by the judicial forces of the Republic.</description>
+    <graphicData>
+      <texPath>Apparel/JudicialForces/Apparel_Male_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(255, 255, 255)</color>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>O21_OR_RepublicPhaseI</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags Inherit="False">
+        <li>JudicialForces</li>
+      </tags>
+      <wornGraphicPath>Apparel/JudicialForces/Apparel</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255, 255, 255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="OR_MediumHelmetFabricatedBase">
+    <defName>CEC_JudicialForcesHelmet</defName>
+    <label>judicial forces helmet</label>
+    <description>An armoured helmet used by the judicial forces of the Republic.</description>
+    <graphicData>
+      <texPath>Apparel/JudicialForces/Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>O21_OR_RepublicPhaseI</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags Inherit="False">
+        <li>JudicialForces</li>
+      </tags>
+      <wornGraphicPath>Apparel/JudicialForces/Helmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255, 255, 255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</Defs>

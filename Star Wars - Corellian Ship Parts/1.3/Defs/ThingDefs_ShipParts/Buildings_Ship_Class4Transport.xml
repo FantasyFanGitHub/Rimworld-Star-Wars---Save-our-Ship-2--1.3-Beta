@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartImpTransport"  Abstract="True">
+    <designatorDropdown>CEC_C4CT_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_KDY_Freighters_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_Front</defName>
+    <label>class-4 container transport front</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportFront</texPath>
+      <drawSize>(2,7)</drawSize>
+    </graphicData>
+    <size>(2,5)</size>
+    <costList>
+      <O21_OR_Durasteel>100</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_FrontRight</defName>
+    <label>class-4 container transport front right</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportFrontRight</texPath>
+      <drawSize>(6,5)</drawSize>
+    </graphicData>
+    <size>(6,3)</size>
+    <costList>
+      <O21_OR_Durasteel>180</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3600</MaxHitPoints>
+      <WorkToBuild>14400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_FrontLeft</defName>
+    <label>class-4 container transport front left</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportFrontLeft</texPath>
+      <drawSize>(6,5)</drawSize>
+    </graphicData>
+    <size>(6,3)</size>
+    <costList>
+      <O21_OR_Durasteel>180</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3600</MaxHitPoints>
+      <WorkToBuild>14400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideRightA</defName>
+    <label>class-4 container transport side right 1</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideRight1</texPath>
+      <drawSize>(7,8)</drawSize>
+    </graphicData>
+    <size>(7,4)</size>
+    <costList>
+      <O21_OR_Durasteel>280</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>5600</MaxHitPoints>
+      <WorkToBuild>22400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideRightB</defName>
+    <label>class-4 container transport side right 2</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideRight2</texPath>
+      <drawSize>(10,9)</drawSize>
+    </graphicData>
+    <size>(10,7)</size>
+    <costList>
+      <O21_OR_Durasteel>700</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>14000</MaxHitPoints>
+      <WorkToBuild>56000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideRightC</defName>
+    <label>class-4 container transport side right 3</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideRight3</texPath>
+      <drawSize>(8,3)</drawSize>
+    </graphicData>
+    <size>(8,3)</size>
+    <costList>
+      <O21_OR_Durasteel>240</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4800</MaxHitPoints>
+      <WorkToBuild>19200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideLeftA</defName>
+    <label>class-4 container transport side left 1</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideLeft1</texPath>
+      <drawSize>(7,8)</drawSize>
+    </graphicData>
+    <size>(7,4)</size>
+    <costList>
+      <O21_OR_Durasteel>280</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>5600</MaxHitPoints>
+      <WorkToBuild>22400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideLeftB</defName>
+    <label>class-4 container transport side left 2</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideLeft2</texPath>
+      <drawSize>(10,9)</drawSize>
+    </graphicData>
+    <size>(10,7)</size>
+    <costList>
+      <O21_OR_Durasteel>700</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>14000</MaxHitPoints>
+      <WorkToBuild>56000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_SideLeftC</defName>
+    <label>class-4 container transport side left 3</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportSideLeft3</texPath>
+      <drawSize>(8,3)</drawSize>
+    </graphicData>
+    <size>(8,3)</size>
+    <costList>
+      <O21_OR_Durasteel>240</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4800</MaxHitPoints>
+      <WorkToBuild>19200</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_BackRight</defName>
+    <label>class-4 container transport back right</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportBackRight</texPath>
+      <drawSize>(1,10)</drawSize>
+    </graphicData>
+    <size>(1,10)</size>
+    <costList>
+      <O21_OR_Durasteel>100</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_BackCentre</defName>
+    <label>class-4 container transport back centre</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportBackCentre</texPath>
+      <drawSize>(1,13)</drawSize>
+    </graphicData>
+    <size>(1,13)</size>
+    <costList>
+      <O21_OR_Durasteel>130</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2600</MaxHitPoints>
+      <WorkToBuild>10400</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport">
+    <defName>Ship_Class4ContainerTransport_BackLeft</defName>
+    <label>class-4 container transport back left</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportBackLeft</texPath>
+      <drawSize>(1,10)</drawSize>
+    </graphicData>
+    <size>(1,10)</size>
+    <costList>
+      <O21_OR_Durasteel>100</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+
+  <!--Engine-->
+	<ThingDef ParentName="CEC_ShipEngineBase" Name="CEC_ShipPartImpTransport_Engine"   Abstract="True">
+    <description>...</description>
+		<designatorDropdown>CEC_C4CT_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_KDY_Freighters_Parts</li>
+    </researchPrerequisites>
+		<costList>
+      <O21_OR_Durasteel>400</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>3</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelCapacity>2000.0</fuelCapacity>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<autoRefuelPercent>1</autoRefuelPercent>
+				<showFuelGizmo>false</showFuelGizmo>
+				<drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+				<drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_EngineTrail">
+				<thrust>4</thrust>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport_Engine">
+    <defName>Ship_Class4ContainerTransport_EngineRight</defName>
+    <label>class-4 container transport engine right</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportEngineRight</texPath>
+      <drawSize>(6,2)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport_Engine">
+    <defName>Ship_Class4ContainerTransport_EngineCentre</defName>
+    <label>class-4 container transport engine centre</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportEngineCentre</texPath>
+      <drawSize>(7,2)</drawSize>
+    </graphicData>
+    <size>(7,2)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartImpTransport_Engine">
+    <defName>Ship_Class4ContainerTransport_EngineLeft</defName>
+    <label>class-4 container transport engine left</label>
+    <graphicData>
+      <texPath>ShipParts6/Class4TransportEngineLeft</texPath>
+      <drawSize>(6,2)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="CEC_ShipPartBase" Name="CEC_ShipPartZeta"  Abstract="True">
+    <designatorDropdown>CEC_ZCS_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Sienar_Parts</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartZeta">
+    <defName>Ship_ZetaClassCargoShuttle_Front</defName>
+    <label>zeta-class cargo shuttle front</label>
+    <graphicData>
+      <texPath>ShipParts6/ZetaClassCargoShuttleFront</texPath>
+      <drawSize>(4,5)</drawSize>
+    </graphicData>
+    <size>(4,5)</size>
+    <costList>
+      <O21_OR_Durasteel>200</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <WorkToBuild>16000</WorkToBuild>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartZeta">
+    <defName>Ship_ZetaClassCargoShuttle_WingRight</defName>
+    <label>zeta-class cargo shuttle wing right</label>
+    <graphicData>
+      <texPath>ShipParts6/ZetaClassCargoShuttleWingRightA</texPath>
+      <drawSize>(17,28)</drawSize>
+    </graphicData>
+    <size>(17,2)</size>
+    <costList>
+      <O21_OR_Durasteel>340</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>6800</MaxHitPoints>
+      <WorkToBuild>27200</WorkToBuild>
+    </statBases>
+    <comps>
+			<li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Landed</label>
+						<path>ShipParts6/ZetaClassCargoShuttleWingRightA</path>
+					</li>
+					<li>
+						<label>Flying</label>
+						<path>ShipParts6/ZetaClassCargoShuttleWingRightB</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+  </ThingDef>
+
+  <ThingDef ParentName="CEC_ShipPartZeta">
+    <defName>Ship_ZetaClassCargoShuttle_WingLeft</defName>
+    <label>zeta-class cargo shuttle wing left</label>
+    <graphicData>
+      <texPath>ShipParts6/ZetaClassCargoShuttleWingLeftA</texPath>
+      <drawSize>(17,28)</drawSize>
+    </graphicData>
+    <size>(17,2)</size>
+    <costList>
+      <O21_OR_Durasteel>340</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>1</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>6800</MaxHitPoints>
+      <WorkToBuild>27200</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="O21Toolbox.BuildingExt.CompProperties_ExtraGraphics">
+        <extraGraphics>
+          <li>
+            <label>Landed</label>
+            <path>ShipParts6/ZetaClassCargoShuttleWingLeftA</path>
+          </li>
+          <li>
+            <label>Flying</label>
+            <path>ShipParts6/ZetaClassCargoShuttleWingLeftB</path>
+          </li>
+        </extraGraphics>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--Engine-->
+	<ThingDef ParentName="CEC_ShipEngineBase">
+		<defName>Ship_ZetaClassCargoShuttle_Engine</defName>
+		<label>zeta-class cargo shuttle engine</label>
+    <description>...</description>
+		<graphicData>
+			<texPath>ShipParts6/ZetaClassCargoShuttleEngine</texPath>
+			<drawSize>(5,2)</drawSize>
+		</graphicData>
+    <size>(5,2)</size>
+    <designatorDropdown>CEC_ZCS_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>CEC_Sienar_Parts</li>
+    </researchPrerequisites>
+		<costList>
+      <O21_OR_Durasteel>300</O21_OR_Durasteel>
+      <O21_OR_ComponentHypertech>3</O21_OR_ComponentHypertech>
+    </costList>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>22000</WorkToBuild>
+    </statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelCapacity>1500.0</fuelCapacity>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<autoRefuelPercent>1</autoRefuelPercent>
+				<showFuelGizmo>false</showFuelGizmo>
+				<drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+				<drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_EngineTrail">
+				<thrust>3</thrust>
+			</li>
+		</comps>
+	</ThingDef>
+  
+</Defs>
