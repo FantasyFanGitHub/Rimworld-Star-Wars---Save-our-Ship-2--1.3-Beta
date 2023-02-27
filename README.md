@@ -1,10 +1,14 @@
 Final 1.3 Version:
 
 with new ships:
-Lucrehulk/n
+Lucrehulk
+
 Munificent
+
 Recusant
+
 Providence
+
 CIS supply ship
 
 Yt-series freighters (different versions available)
