@@ -1,7 +1,7 @@
 Final 1.3 Version:
 
 with new ships:
-Lucrehulk
+Lucrehulk/n
 Munificent
 Recusant
 Providence
